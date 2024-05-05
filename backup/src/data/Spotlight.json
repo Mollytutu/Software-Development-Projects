@@ -1,0 +1,115 @@
+
+[
+    {
+      "id": 99990001,
+      "name": "Tony Johnson",
+      "position": "Nasa engineer",
+      "specialization": "Expert in spacecraft design and engineering for NASA missions.",
+      "image": "../assets/images/profile1.png"
+    },
+    {
+      "id": 99990002,
+      "name": "Olivia Williams",
+      "position": "Long term care Nurse",
+      "specialization": "Professional singer with expertise in various music genres.",
+      "image": "../assets/images/profile2.png"
+    },
+    {
+      "id": 99990003,
+      "name": "Ava Brown",
+      "position": "Pediatrician",
+      "specialization": "Key Opinion Leader with expertise in influencer marketing and brand promotion.",
+      "image": "../assets/images/profile3.png"
+    },
+    {
+      "id": 99990004,
+      "name": "Mia Davis",
+      "position": "Grade 3 teacher",
+      "specialization": "Experienced educator specializing in teaching third-grade curriculum.",
+      "image": "../assets/images/profile4.png"
+    },
+    {
+      "id": 99990005,
+      "name": "William Miller",
+      "position": "Surgical Nurse",
+      "specialization": "Skilled in assisting surgeons during operations, ensuring patient safety and comfort.",
+      "image": "../assets/images/profile5.png"
+    },
+    {
+      "id": 99990006,
+      "name": "Elijah Wilson",
+      "position": "Mathematician",
+      "specialization": "Specializes in cardiac care, managing and monitoring patients with heart conditions.",
+      "image":  "../assets/images/profile6.png"
+    },
+    {
+      "id": 99990007,
+      "name": "Amelia Jones",
+      "position": "Artist",
+      "specialization": "Provides mental health support and care to patients with psychiatric disorders.",
+      "image":  "../assets/images/profile7.png"
+    },
+    {
+      "id": 99990008,
+      "name": "Lucas Taylor",
+      "position": "Illustrator",
+      "specialization": "Cares for newborn babies in the neonatal intensive care unit, ensuring their health and wellbeing.",
+      "image":  "../assets/images/profile8.png"
+    },
+    {
+      "id": 99990009,
+      "name": "Isabella Martinez",
+      "position": "Wedding Planner",
+      "specialization": "Assists in childbirth, providing support to mothers and ensuring the safe delivery of babies.",
+      "imageSrc": "../assets/images/profile9.png"
+    },
+    {
+      "id": 99990010,
+      "name": "Alexander Anderson",
+      "position": "Editor",
+      "specialization": "Specializes in musculoskeletal care, assisting patients with bone and joint disorders.",
+      "imageSrc": "../assets/images/profile10.png"
+    },
+    {
+      "id": 99990011,
+      "name": "Charlotte White",
+      "position": "Singer",
+      "specialization": "Works to improve the health and wellbeing of communities through preventive care and health education.",
+      "imageSrc": "../assets/images/profile11.png"
+    },
+    {
+      "id": 99990012,
+      "name": "Benjamin Wilson",
+      "position": "Musician",
+      "specialization": "Provides medical care and support to patients in their homes, promoting independence and comfort.",
+      "imageSrc":"../assets/images/profile12.png"
+    },
+    {
+      "id": 99990013,
+      "name": "Emily Taylor",
+      "position": "Real Princess",
+      "specialization": "Specializes in caring for cancer patients, offering emotional support and symptom management.",
+      "imageSrc": "../assets/images/profile13.png"
+    },
+    {
+      "id": 99990014,
+      "name": "James Martinez",
+      "position": "Doctor",
+      "specialization": "Assists patients recovering from illness or injury, helping them regain independence and mobility.",
+      "imageSrc": "../assets/images/profile14.png"
+    },
+    {
+      "id": 99990015,
+      "name": "Ella Thomas",
+      "position": "banker",
+      "specialization": "Provides healthcare services and promotes wellness in school settings, ensuring student health and safety.",
+      "imageSrc": "../assets/images/profile15.png"
+    },
+    {
+      "id": 99990016,
+      "name": "Henry Clark",
+      "position": "Rich guy",
+      "specialization": "Provides compassionate end-of-life care and support to terminally ill patients and their families.",
+      "imageSrc": "../assets/images/profile15.png"
+    }
+]

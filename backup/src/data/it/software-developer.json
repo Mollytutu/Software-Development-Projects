@@ -1,0 +1,114 @@
+[
+    {
+      "id": "00010001",
+      "name": "John Smith",
+      "position": "Senior Software Engineer",
+      "specialization": "Expert in full-stack web development with proficiency in JavaScript, React, and Node.js.",
+      "image": "profile1.png"
+    },
+    {
+      "id": "00010002",
+      "name": "Alice Johnson",
+      "position": "Software Engineer",
+      "specialization": "Specializes in mobile app development with experience in iOS and Android development.",
+      "image": "profile2.png"
+    },
+    {
+      "id": "00010003",
+      "name": "David Brown",
+      "position": "Frontend Developer",
+      "specialization": "Expertise in modern frontend frameworks like React and Angular, with a focus on user interface design.",
+      "image": "profile3.png"
+    },
+    {
+      "id": "00010004",
+      "name": "Sarah Miller",
+      "position": "Backend Developer",
+      "specialization": "Specializes in backend development using Node.js, Express, and MongoDB for scalable web applications.",
+      "image": "profile4.png"
+    },
+    {
+      "id": "00010005",
+      "name": "Michael Wilson",
+      "position": "DevOps Engineer",
+      "specialization": "Expertise in building and maintaining CI/CD pipelines and infrastructure automation using tools like Docker and Kubernetes.",
+      "image": "profile5.png"
+    },
+    {
+      "id": "00010006",
+      "name": "Emily Taylor",
+      "position": "Software Architect",
+      "specialization": "Designs scalable and maintainable software architectures for complex enterprise applications.",
+      "image": "profile6.png"
+    },
+    {
+      "id": "00010007",
+      "name": "Daniel Martinez",
+      "position": "Full Stack Developer",
+      "specialization": "Skilled in both frontend and backend development, with experience in building end-to-end solutions.",
+      "image": "profile7.png"
+    },
+    {
+      "id": "00010008",
+      "name": "Olivia Clark",
+      "position": "UI/UX Designer",
+      "specialization": "Expertise in user interface and user experience design, creating intuitive and visually appealing interfaces.",
+      "image": "profile8.png"
+    },
+    {
+      "id": "00010009",
+      "name": "William Brown",
+      "position": "Software Quality Engineer",
+      "specialization": "Ensures the quality and reliability of software through rigorous testing and automation.",
+      "image": "profile9.png"
+    },
+    {
+      "id": "00010010",
+      "name": "Sophia Wilson",
+      "position": "Machine Learning Engineer",
+      "specialization": "Develops machine learning models and algorithms for data-driven applications.",
+      "image": "profile10.png"
+    },
+    {
+      "id": "00010011",
+      "name": "Ethan Thomas",
+      "position": "Game Developer",
+      "specialization": "Creates immersive gaming experiences with expertise in game engines like Unity and Unreal Engine.",
+      "image": "profile11.png"
+    },
+    {
+      "id": "00010012",
+      "name": "Emma Garcia",
+      "position": "Embedded Systems Engineer",
+      "specialization": "Develops software for embedded systems, IoT devices, and real-time applications.",
+      "image": "profile12.png"
+    },
+    {
+      "id": "00010013",
+      "name": "Aiden Rodriguez",
+      "position": "Blockchain Developer",
+      "specialization": "Builds decentralized applications (DApps) and smart contracts using blockchain technologies like Ethereum.",
+      "image": "profile13.png"
+    },
+    {
+      "id": "00010014",
+      "name": "Isabella Martinez",
+      "position": "Cloud Solutions Architect",
+      "specialization": "Designs and implements cloud-based solutions for scalability, reliability, and performance.",
+      "image": "profile14.png"
+    },
+    {
+      "id": "00010015",
+      "name": "Liam White",
+      "position": "Data Scientist",
+      "specialization": "Analyzes large datasets, develops predictive models, and extracts insights from data.",
+      "image": "profile15.png"
+    },
+    {
+      "id": "00010016",
+      "name": "Madison Brown",
+      "position": "AR/VR Developer",
+      "specialization": "Creates augmented reality (AR) and virtual reality (VR) experiences for various industries.",
+      "image": "profile16.png"
+    }
+  ]
