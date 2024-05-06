@@ -38,7 +38,7 @@ const SoftwarePage: React.FC = () => {
               <Link key={index} href={`/user/${user.id}`}>
                 <div className="border border-gray-300 rounded-lg max-w-[280px] h-[300px] mx-auto overflow-hidden mb-6 bg-white">
                   <div className="h-[200px] overflow-hidden">
-                    <img src={images[index]} alt={`profile picture ${index + 1}`} className=" h-full-auto object-cover" />
+                    <img src={images[index]} alt={`profile picture ${index + 1}`} className=" h-full w-full object-cover" />
                   </div>
                   <hr className="border-t border-gray-900" />
                   <div className="p-4 bg-gray-100 text-center h-full">

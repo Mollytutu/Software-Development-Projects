@@ -42,3 +42,5 @@ yarn-error.log*
 *.tsbuildinfo
 
 node_modules
+../kijiji-server
+kijiji-server

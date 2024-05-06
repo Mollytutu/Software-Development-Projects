@@ -4,6 +4,7 @@ import Link from 'next/link';
 import React, { createContext, useState } from 'react';
 import Header from '~/components/Header/Header';
 import { useRouter } from 'next/router';
+import Footer from '~/components/footer/footer';
 
 
 
@@ -36,7 +37,7 @@ const LoginPage: React.FC = () => {
   return (
     <div>
       <Header />
-      <div className="flex justify-center items-center h-screen mt-16">
+      <div className="flex justify-center items-center my-12">
         <div className="signin border border-gray-300 rounded-xl w-80 h-96 p-8  bg-blue-200">
           <h1 className="text-2xl font-bold mb-4 text-gray-400 text-center">Login</h1>
           {error && <div className="text-red-500 mb-4">{error}</div>}
@@ -78,6 +79,7 @@ const LoginPage: React.FC = () => {
           </p></Link>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

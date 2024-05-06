@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import logo from '../../assets/images/Logo_white_long.png';
-import { FaBars, FaSearch } from 'react-icons/fa';
+import { FaBars, FaSearch,FaAngleDown } from 'react-icons/fa';
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -38,21 +38,22 @@ const Header: React.FC = () => {
             </span>
           </Link>
           <FaBars className="text-gray-500 cursor-pointer mb-0.5" onClick={toggleMenu} />
+          {/* Menu dropdown */}
           {isMenuOpen && (
-            <div className="absolute bg-gray-700 text-white top-12 right-4 mt-2 w-40 bg-white shadow-lg rounded-3xl z-10">
+            <div className="absolute bg-gray-700 text-red-700 top-12 right-4 mt-2 w-40 bg-white shadow-lg rounded-3xl z-10">
               <ul>
                 <li>
-                  <a className="block py-2 px-4 hover:bg-gray-100">
+                  <a className="block py-2 px-4 hover:bg-gray-100 hover:font-bold">
                     <Link href="/">Home</Link>
                   </a>
                 </li>
                 <li>
-                  <a className="block py-2 px-4 hover:bg-gray-100">
+                  <a className="block py-2 px-4 hover:bg-gray-100 hover:font-bold">
                     <Link href="/about">About</Link>
                   </a>
                 </li>
                 <li>
-                  <a className="block py-2 px-4 hover:bg-gray-100">
+                  <a className="block py-2 px-4 hover:bg-gray-100 hover:font-bold">
                     <Link href="/contact">Contact Us</Link>
                   </a>
                 </li>
@@ -62,12 +63,13 @@ const Header: React.FC = () => {
         </div>
       </div>
       <div className="grid sm:grid-cols-2 px-8 w-full px-4 gap-4 mb-4">
-        <div>
-          <select
+        <div className="relative">
+        <select
             className="w-full rounded-3xl py-2 px-2 border border-gray-400 border-opacity-50 focus:ring-2 focus:ring-blue-500"
             onChange={handleSelectChange}
             value={selectedOption}
           >
+            <FaAngleDown className="absolute right-10 top-1/2 transform -translate-y-1/2 text-gray-400" />
             <option value="">Pick a Professional</option>
             <optgroup label="Information Technology">
               <option value="information-technology/software-development">Software Development</option>

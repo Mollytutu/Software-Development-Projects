@@ -35,7 +35,7 @@ const ContactUs: React.FC = () => {
   return (
     <>
         <Header />
-        <div className="my-12 flex justify-center items-center h-screen">
+        <div className=" bg-gray-100 flex justify-center items-center h-screen">
           <div className="signin border border-gray-300 rounded-2xl w-80 h-110 p-8 bg-blue-200">
             <h2 className="text-2xl font-bold mb-4 text-gray-400 text-center">Contact Us</h2>
             <form onSubmit={handleSubmit}>

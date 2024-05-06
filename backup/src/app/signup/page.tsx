@@ -1,6 +1,7 @@
 'use client'
 import React, { useState } from 'react';
 import Header from '~/components/Header/Header';
+import Footer from '~/components/footer/footer';
 
 const SignUpPage: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -39,7 +40,7 @@ const SignUpPage: React.FC = () => {
     <>
     <Header />
     <div className="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-md w-full space-y-8 border border-gray-300 rounded-xl w-80  p-8  bg-blue-200">
+      <div className="max-w-md w-full space-y-8 border border-gray-300 rounded-xl w-80 p-8 bg-blue-200">
         <div>
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-500">
             Sign up for an account
@@ -224,6 +225,7 @@ const SignUpPage: React.FC = () => {
         </form>
       </div>
     </div>
+    <Footer />
     </>
   );
 };

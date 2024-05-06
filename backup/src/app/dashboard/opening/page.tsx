@@ -57,15 +57,16 @@ const OpeningHours: React.FC = () => {
   const handleConfirm = () => {
     alert('Opening hours confirmed!');
     // Redirect to the user page
-    window.location.href = '/user/id'; // Replace '/user-page' with the actual URL of your user page
+    window.location.href = '/user/99990001'; // Replace '/user-page' with the actual URL of your user page
   };
 
   return (
     <>
     <Header />
-    <div>
-      <h2>Opening Hours</h2>
-      <table>
+    <div className='bg-blue-200 py-8'>
+    <h2 className="text-md mb-8 w-80 my-8 font-semibold mb-12 rounded-3xl bg-gray-400 text-white text-center px-7 py-2 max-w-screen-lg mx-auto">
+        Opening Hours</h2>
+      <table className='mx-auto'>
         <thead>
           <tr>
             <th>Day</th>
@@ -73,23 +74,23 @@ const OpeningHours: React.FC = () => {
             <th>Close Time</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody >
           {openingHours.map((hour, index) => (
             <tr key={index}>
               <td>{hour.day}</td>
               <td>
-                <div className="time-input pl-20">
+                <div className="time-input pl-14">
                   <input type="text" value={hour.openTime} readOnly />
                   <button onClick={() => incrementTime(index, 'openTime')}>
-                    <Clock  className="ml-0"/>
+                    <Clock  className="ml-[-70px] pt-2"/>
                   </button>
                 </div>
               </td>
               <td>
-                <div className="time-input pl-8">
+                <div className="time-input pl-12">
                   <input type="text" value={hour.closeTime} readOnly />
                   <button onClick={() => incrementTime(index, 'closeTime')}>
-                    <Clock />
+                    <Clock className="ml-[-70px] pt-2 "/>
                   </button>
                 </div>
               </td>

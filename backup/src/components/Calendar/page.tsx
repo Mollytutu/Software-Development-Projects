@@ -6,6 +6,7 @@ import { add, format } from 'date-fns';
 import { AVAILIABLE_OPENING_TIME, AVAILIABLE_CLOSING_TIME, OPENING_HOURS_INTERVAL} from '../../constants/config';
 import { DateTime } from '~/utils/types';
 import { useRouter } from 'next/router';
+import 'react-calendar/dist/Calendar.css'; 
 
 interface indexProps {
     setDate: Dispatch<SetStateAction<DateTime>>;
